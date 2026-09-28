@@ -26,6 +26,7 @@
     "e2e:ui": "playwright test --project=e2e-chromium --ui",
     "test:visual": "playwright test --project=visual-chromium",
     "test:visual:update": "playwright test --project=visual-chromium --update-snapshots",
+    "test:visual:ci": "playwright test --project=visual-chromium --ignore-snapshots=false",
     "vitest": "vitest",
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
